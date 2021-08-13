@@ -11,18 +11,37 @@
 </head>
 
 <body>
-    <h1> Is your Birthday Lucky?</h1>
-    <h3> Scroll down to find out ▼ </h3>
+
+    <section class="top-section">
+        <div class="top-container">
+            <h1 class="top-heading"> Is your Birthday Lucky?</h1>
+            <h3 class="top-message"> Scroll down to find out!</h3>
+            <a class="primary-link" href="#down">▼</a>
+        </div>
+    </section>
     <div class="adding-space"></div>
-    <div class="container">
-        <input type="date" id="input-date"></input>
-        <input type="number" placeholder="Enter your lucky number" id="lucky-number"></input>
-        <button id="btn-check">Check!</button>
-        <h2 id="output-message"></h2>
+    <section class="container">
+        <div class="down-container">
+            <a class="primary-link" name="down"></a>
+            <h3>Enter your Date of Birth below:</h3>
+            <input  type="date" id="input-date"></input>
+            <input type="number" placeholder="Enter your lucky number" id="lucky-number"></input>
+            <button id="btn-check">Check!</button>
+            <h2 id="output-message"></h2>
+        </div>
+        <footer>
+            <ul>
+                <li><a class="primary-link" target="blank" href="https://github.com/Prabhav-Sharma">Github</a></li>
+                <li><a class="primary-link" target="blank"
+                        href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/">LinkedIn</a></li>
+                <li><a class="primary-link" target="blank" href="https://www.instagram.com/prabhavsharmaa">Instagram</a>
+                </li>
+            </ul>
+            <button id="privacy">@Privacy Policy</button>
+            <h4 id="privacy-message"></h4>
+        </footer>
+    </section>
 
-
-
-    </div>
     <script src="script.js" type="text/javascript"></script>
 </body>
 
